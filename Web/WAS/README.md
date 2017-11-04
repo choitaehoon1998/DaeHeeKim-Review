@@ -29,4 +29,18 @@
 
 #### WAS와 Web Server의 차이 
 
-`Web Server`는 웹 브라우저(`Web Client`)에게 Contents를 제공하는 서버이고, 정적인 HTML이나 jpg,gif 등의 image를 http 프로토콜을 통해 웹 브라우저에게 제공합니다.   `WAS`는 Application을 동작할 수 있도록 지원하며, 현재는 `Serlvet, JSP, asp, php`등의 프로그램에도 이용되고 있습니ㅏㄷ.
+`Web Server`는 웹 브라우저(`Web Client`)에게 Contents를 제공하는 서버이고, 정적인 HTML이나 jpg,gif 등의 image를 http 프로토콜을 통해 웹 브라우저에게 제공합니다.   `WAS`는 Application을 동작할 수 있도록 지원하며, 현재는 `Serlvet, JSP, asp, php`등의 프로그램에도 이용되고 있습니다.
+
+
+
+### Apache Tomcat 이란 
+
+`Apache`란, `apache`라는 오픈소스 소프트웨어 재단에서 만든 `HTTP WEB SERVER`입니다. `HTTP Web Serve`r란 웹 브라우저와 같은 `Web Client`(ex. chrome) 로부터 HTTP 요청을 받아들이고, `HTML, Image, CSS , JS`를 포함한 `HTML` 문서를 `Client`로 반환시키는 서버 입니다.
+
+`Tomcat`이란, `WAS(Web Application Server)`이며 (Web Server + Web Container)의 결합이며 다양한 기능을 컨테이너에 구현하여 동적인 Data를 처리할 수 있는 Server이며, Client의 요청이 있을시 프로그램을 통해 결과를 다시 Client에 전달해 주는 역할을 합니다. 또한 `Web Server`와 연동하여 실행할 수 있는 `Java` 환경을 제공하여 `JSP`와 `Serlvet`이 실행될 수 있도록 하고 있습니다.
+
+
+
+`Serlvet` : `Java`를 사용하여 웹페이지를 동적으로 생성하는 `Server` 프로그램
+
+### HTTP와 HTTPS 의 차이 
