@@ -44,3 +44,15 @@
 `Serlvet` : `Java`를 사용하여 웹페이지를 동적으로 생성하는 `Server` 프로그램
 
 ### HTTP와 HTTPS 의 차이 
+
+`HTTPS(Hypertext Transfer Protocol over Secure Socket Layer)`는 HTTP의 보안이 강화된 버전으로서 S는 secure Socket의 약어 즉, 안전한 통신망을 의미한다고 보시면 됩니다. 암호화를 하는 방법은 간단합니다. **공개키** 방식을 사용해서 암호화를 진행합니다
+
+
+
+### Cookie 와 Session
+
+`Cookie`란 Server에서 Client측에 상태정보를 저장하고 추출해 주는 것으로서 Client의 요청마다 Browser로부터 Server에게 전송되는 패킷의 일종입니다.  ( Key와 value가 들어있는 작은 Data 파일입니다. )
+
+`Session`이란 Client와 Server간의 NetWork 연결이 유지되어 있는 상태를 말하며, 사용자가 Broswer를 켜서 Server 접속 후, 연결을 종료한 시점까지를 말합니다. 그 때 Client가 Web Server에 Request를 보내면 Server가 ID를 부여하는데 이를 `Session`이라고 합니다. 
+
+둘의 가장 큰 차이점은 저장 위치가 `Cookie`는 Client, `Session`은 Server에 저장이 된다는 점이 차이점이 있습니다. 또한 `Session`이 보완이 더 잘 된다는 장점이 있지만 Server의 자원을 사용하기 때문에 그때그때 용도에 따라 잘 사용 해야합니다. 
