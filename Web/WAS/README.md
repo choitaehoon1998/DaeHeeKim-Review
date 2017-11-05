@@ -56,3 +56,9 @@
 `Session`이란 Client와 Server간의 NetWork 연결이 유지되어 있는 상태를 말하며, 사용자가 Broswer를 켜서 Server 접속 후, 연결을 종료한 시점까지를 말합니다. 그 때 Client가 Web Server에 Request를 보내면 Server가 ID를 부여하는데 이를 `Session`이라고 합니다. 
 
 둘의 가장 큰 차이점은 저장 위치가 `Cookie`는 Client, `Session`은 Server에 저장이 된다는 점이 차이점이 있습니다. 또한 `Session`이 보완이 더 잘 된다는 장점이 있지만 Server의 자원을 사용하기 때문에 그때그때 용도에 따라 잘 사용 해야합니다. 
+
+
+
+### Cache
+
+프로그램이 수행될 때 나타나는 지역성을 이용하여 메모리나 디스크에서 사용되었던 내용을 특별히 빠르게 접근할 수 있는 곳에 보관하고 관리함으로서 이를 관리함으로서 보다 빠르게 참조하도록 하는 것이다.
