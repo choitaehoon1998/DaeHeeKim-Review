@@ -99,7 +99,7 @@ Data와 Data Access Program 모두를 관리하는 사람
 
 * table = reation
 * tuplue = row
-* relation = attribute = column 
+* attribute = column 
 * domain = 한 column의 모든 값
 
 relation instance, relation schema
@@ -127,3 +127,23 @@ Schema Diagram은 시각적으로 table사이의 연관성을 표현한다.
 join 연산 : 두개의 연산을 합치는 연산
 
 카티션 곱 :  두개의 연산을 (A*B) 곱하는 연산
+
+
+
+## 기본적인 query 연산
+
+Table 생성
+
+```
+create table setter(
+set_into varchar(20) not null,
+set_number numeric(7,2),
+set_Test varchar(50),
+primary key set_into,
+foreign key (testtable) references set test
+on delete cascade
+on update cascade
+
+                    );
+```
+
