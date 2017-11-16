@@ -8,7 +8,7 @@
 
 `interpreter` : 프로그래밍의 언어의 소스코드를 바로 실행하는 컴퓨터 프로그램 또는 환경 
 
-( 원시코드 -> 기계어 (x)  / Compiler가 이렇습니다. )
+ 원시코드 -> 기계어 (x)  / Compiler가 이렇습니다. )
 
 `JIT 컴파일(just-in-time compilation)` ,`동적 번역(dynamic translation)` : JVM에서 프로그램을 실제 실행하는 시점에 기계어로 번역하는 컴파일 기법 ( 실행 시점시 기계어 코드를 실행하고, 여러번 반복된 것은 다시 생성하지 않음 (캐싱 방법 사용) )
 
@@ -18,7 +18,7 @@
 
 * JVM Architecture 
 
-## ![](C:\Users\anyoz\Desktop\JvmSpec7.png)
+## ![JvmSpec7](C:\Users\anyoz\OneDrive\Project\StiKuan-Review\Java\JVM\JvmSpec7.png)
 
 ## JVM의 특징
 
