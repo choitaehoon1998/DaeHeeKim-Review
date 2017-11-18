@@ -18,7 +18,7 @@
 
 * JVM Architecture 
 
-## ![JvmSpec7](C:\Users\anyoz\OneDrive\Project\StiKuan-Review\Java\JVM\JvmSpec7.png)
+
 
 ## JVM의 특징
 
@@ -34,7 +34,7 @@
 
 ## JVM의 사양
 
-`Java ClassLoader` : JVM을 동적으로 Load하는 Java RunTime Error의 일부입니다. 또한 Java .class File을 RunTime시 동적으로 Load 합니다.
+`Java ClassLoader` : JVM을 동적으로 Load하는 Java RunTime Module의 일부입니다. 또한 Java .class File을 RunTime시 동적으로 Load 합니다.
 
 `Java ByteCode` : JVM이 실행하는 명령어의 형태입니다. ( JVM -> decomplier )
 
