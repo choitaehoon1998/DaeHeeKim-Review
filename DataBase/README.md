@@ -147,3 +147,12 @@ on update cascade
                     );
 ```
 
+
+
+## Clustered Index & Non - Clustered Index
+
+`Clustered Index` : 물리적으로 행을 재배열하며, 테이블당 1개 생성 가능합니다.
+
+즉 물리적으로 행을 재배치 한다는 것입니다.
+
+`Non - Clustered Index` : 별도의 인덱스 Table을 만들어 Data를 검색하며, 공간을 많이 차지합니다.
