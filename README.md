@@ -10,18 +10,14 @@
 * Web 
 * NetWork
 * DataBase
-* 2017년 하반기 ~ 2018년 상반기의 면접 자료를 총합한 자료입니다. 웹 개발자 기준입니다. 감사합니다.
+
+  
 
 
 
-
-
-* 6월 추가 내용 예정 
+#### 6월 추가 내용 예정 
 
 * Java public static void main -> 6.13 추가
-
-* 레드블랙 트리 , B,B+ 트리의 차이 
-
-* Spring context 등... 스프링이 사용자 -> 클라이언트 -> 서버 ... 를 통해 다시 사용자로 돌아오는 
-
-  과정... - Javascript 동기 비동기 설명 - SQL 서브쿼리, 함수 등 
+* Spring MVC Architecture -> 6.14 추가 
+* 레드블랙 트리 , B,B+ 트리의 차이  -> 7월 추가 예정
+* Javascript 동기 비동기 설명 - SQL 서브쿼리, 함수 등 -> 6월 말 예정  

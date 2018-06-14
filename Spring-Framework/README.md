@@ -17,7 +17,9 @@ Spring의 용도는 동적인 웹 사이트 개발을 위한 것입니다.
 
 * [@Aspect Annotation을 이용한 AOP 구현](#aspect-annotation을-이용한-aop-구현)
 
-* Mybatis 
+* [Mybatis](#Mybatis)
+
+* [Spring MVC Architecture ](#Spring MVC Architecture )
 
   </br>  
 
@@ -455,8 +457,21 @@ public class MainClass {
 
 `Mybatis`란, 객체 지향 언어인 자바의 관계형 DataBase Programming을 좀 더 쉽게 할 수 있는 개발 Framework
 
+[위로](#spring-framework)
 
 
 
+### Spring MVC Architecture 
+
+![스프링](C:\Users\anyoz\Desktop\스프링.jpg)
+
+출처 
+
+ http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte:ptl:spring_mvc_architecture
 
 [위로](#spring-framework)
+
+
+
+
+
