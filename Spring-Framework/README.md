@@ -463,7 +463,7 @@ public class MainClass {
 
 ### Spring MVC Architecture 
 
-![스프링](C:\Users\anyoz\Desktop\스프링.jpg)
+![Spring MVC Architecture](Spring MVC Architecture.jpg)
 
 출처 
 
