@@ -463,11 +463,32 @@ public class MainClass {
 
 ### Spring MVC Architecture 
 
+* 스프링이 사용자에게 전달되는 전체적인 구조 설명입니다.
+
 ![Spring MVC Architecture](https://github.com/DaeHeeKim93/DaeHeeKim-Review/blob/master/Spring-Framework/Spring%20MVC%20Architecture.jpg)
 
-출처 
+출처 :  http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte:ptl:spring_mvc_architecture
 
- http://www.egovframe.go.kr/wiki/doku.php?id=egovframework:rte:ptl:spring_mvc_architecture
+1. 사용자가 우선 `Spring Architecture`를 `View`를 통해 우선 접근하게 됩니다. 
+
+2. `View`에서의 어떤 `Event`를 통해 `request` 요청을 보내게 됩니다.
+
+3. 이 `request`를 `dispatcherserlvet`가 요청을 받습니다.
+
+4. `dispatcherservlet` 이 `request`를 보내어서 `HandlerMapping`에게 보내게 됩니다. 
+
+   ( `dispatcherservlet`은 spring에서 하는 역할들이 대부분 들어있습니다.  뜯어보면.. )
+
+5. `HandlerMapping`은 `request`에 해당하는 `Controller`를 보내게 됩니다.
+
+6. `Controller`는 `Logic` 수행후에 `ModelAndView`를 보내게됩니다. ( Model - DAO , DTO 등.. )
+
+7.  `View Name`을 통해 `View Resolver`가 해당되는 `View`를 보내게 되고 `Model` 객체를 포함하여 
+
+    `Rendering` 된 `Object`를 사용자에게 보여주게 됩니다.
+
+   * 스프링이 사용자에게 전달되는 전체적인 흐름입니다.
+   * 스프링이 사용자 -> 서버 -> 사용자로 전달되는 흐름에 대한 설명입니다.
 
 [위로](#spring-framework)
 
