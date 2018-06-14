@@ -21,3 +21,4 @@
 * Spring MVC Architecture -> 6.14 추가 
 * 레드블랙 트리 , B,B+ 트리의 차이  -> 7월 추가 예정
 * Javascript 동기 비동기 설명 - SQL 서브쿼리, 함수 등 -> 6월 말 예정  
+* REST API, XSS, SQL Injection 용어들의 간단한 설명 -> 7월 중 예정 
