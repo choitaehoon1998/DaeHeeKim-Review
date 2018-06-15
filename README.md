@@ -25,5 +25,5 @@
 
 
 ### 기여자 목록입니다. 항상 감사드립니다 !
-* [Changmin Kim](https://github.com/changmin-dev) (오타 수정 및 정보 추)
+* [Changmin Kim](https://github.com/changmin-dev) (오타 수정 및 정보 추가)
 
