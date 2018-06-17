@@ -19,7 +19,7 @@ Spring의 용도는 동적인 웹 사이트 개발을 위한 것입니다.
 
 * [Mybatis](#Mybatis)
 
-* [Spring MVC Architecture](#Spring MVC Architecture)
+* [spring-mvc-architecture](#spring-mvc-architecture)
 
   </br>  
 

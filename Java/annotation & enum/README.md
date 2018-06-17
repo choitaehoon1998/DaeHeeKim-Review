@@ -38,7 +38,7 @@ public class Main {
 
 프로그래밍 언어 자체에는 영향을 주지는 않지만, `@Override` 와 같이 이러한 `Annotation`을 Method나 다른 
 
-Annotation을 너어주면, 컴파일러가 Annotation을 확인하고 옳지 않으면 결과를 출력시켜 주기 때문에,
+Annotation을 넣어주면, 컴파일러가 Annotation을 확인하고 옳지 않으면 결과를 출력시켜 주기 때문에,
 
 상당히 유용하게 소스코드의 구조나 타겟의 연결을 편하게 관리해 줄 수 있는 도구입니다.
 
@@ -97,3 +97,29 @@ public class Main {
 ```
 
 그 외에도 `@SuppressWarnings` , `@Native`, `@FunctionalInterface` 등의 Annotation 등이 있습니다.
+
+### 사용자 정의 Annotation
+Annotation을 정의해서 사용할 수 있습니다.
+```java
+@Target(ElementType.TYPE, ElementType.FILED)
+@Retention(RetentionPolicy.RUNTIME)
+public @interface Annotation이름 {
+    ...
+}
+```
+- `@Target` : 어노테이션의 적용 대상. 상수로 적용한다.(ElementType.Class 등) ,를 통해 복수로 적용이 가능합니다.
+- `@Retention` : 어노테이션의 유지 정책. `RetentionPolicy.RUNTIME`, `RetentionPolicy.CLASS`,`RetentionPolicy.SOURCE` 3가지입니다. 
+
+### 사용자 정의 Annotation 사용하기 
+위에서 정의한 Annotation을 사용한 모습입니다. 정의한 내용과 같이 클래스(TYPE)와 맴버(FILED)에 적용하였습니다.
+```java
+@Annotation이름
+class 클래스{
+    @Annotation이름
+    int member 
+}
+```
+
+
+
+

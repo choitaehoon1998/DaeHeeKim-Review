@@ -10,9 +10,9 @@
 
  원시코드 -> 기계어 (x)  / Compiler가 이렇습니다. )
 
-`JIT 컴파일(just-in-time compilation)` ,`동적 번역(dynamic translation)` : JVM에서 프로그램을 실제 실행하는 시점에 기계어로 번역하는 컴파일 기법 ( 실행 시점시 기계어 코드를 실행하고, 여러번 반복된 것은 다시 생성하지 않음 (캐싱 방법 사용) )
+`JIT 컴파일(just-in-time compilation)`, `동적 번역(dynamic translation)` : JVM에서 프로그램을 실제 실행하는 시점에 기계어로 번역하는 컴파일 기법 ( 실행 시점에 기계어 코드를 실행하고, 여러 번 반복된 것은 다시 생성하지 않음 (캐싱 방법 사용) )
 
-이론적으로 표준 Java API 까지 동이란 동작을 하도록 한 상태에서 작동되는 Java Programm은 CPU나 OS와는 
+이론적으로 표준 Java API 까지 동일한 동작을 하도록 한 상태에서 작동되는 Java Programm은 CPU나 OS와는 
 
 무관하게, 항상 성능을 보장한다고 합니다. ( 실제로는 당연히 변수가 많겠죠? )
 
@@ -24,7 +24,7 @@
 
 * Stack 기반의 가상 머신
 
-* 포인터를 지원하지만 , C와 같이 주소값을 임의로 조작한 포인터 연산 불가능 ( unsafe 라고 뜹니다. )
+* 포인터를 지원하지만, C와 같이 주소값을 임의로 조작한 포인터 연산 불가능 ( unsafe 라고 뜹니다. )
 
 * GC(Garbage Collector) 사용
 
@@ -38,4 +38,4 @@
 
 `Java ByteCode` : JVM이 실행하는 명령어의 형태입니다. ( JVM -> decomplier )
 
-`Java Virtual Machine Language` : JVM 위에서 실행될 수 있도록 ByteCode 생성하거나, JVM 위에서 실행되는 Interprint를 지원하는 언어를 말합니다.
+`Java Virtual Machine Language` : JVM 위에서 실행될 수 있도록 ByteCode를 생성하거나, JVM 위에서 실행되는 Interpreter를 지원하는 언어를 말합니다.
