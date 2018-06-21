@@ -15,4 +15,4 @@
 - 네이티브 스택, 즉 JNI(Java Native Interface)에 의해 생성된 객체에 대한 참조
 - 메서드 영역의 정적 변수에 의한 참조
 
-이들 중 힙 내의 다른 객체에 의한 참조를 제외한 나머지 3개가 root set으로, reachability를 판가름하는 기준이 된다. 즉 root set으로부터 시작한 객체들은 reachable이며, root set과 무관한 객체들이 unreachable 객체로 GC의 대상이 되게 ㄷ됩니다.
+이들 중 힙 내의 다른 객체에 의한 참조를 제외한 나머지 3개가 root set으로, reachability를 판가름하는 기준이 된다. 즉 root set으로부터 시작한 객체들은 reachable이며, root set과 무관한 객체들이 unreachable 객체로 GC의 대상이 되게 됩니다.
