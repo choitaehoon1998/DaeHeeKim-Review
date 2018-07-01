@@ -156,3 +156,22 @@ on update cascade
 즉 물리적으로 행을 재배치 한다는 것입니다.
 
 `Non - Clustered Index` : 별도의 인덱스 Table을 만들어 Data를 검색하며, 공간을 많이 차지합니다.
+
+
+
+### SubQuery
+
+`SubQuery`는 완전한 Select 문을 ( ) -> 괄호를 이용하여 `AS Name` 으로 별칭을 주는 것입니다.
+
+```sql
+Select B.A, B.B , (
+Select C.A
+From C 
+    inner join D
+    ON C.A = ON D.A
+    Where C.A = B.A
+) as Example
+From B
+```
+
+이를 통해 단일 `Row`에 있는 한 `Column`의 값을 0~1개 반환할 수 있습니다.
