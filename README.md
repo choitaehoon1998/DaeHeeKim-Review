@@ -7,19 +7,16 @@
 * Spring Framework ( Boot maven project 설정 )
 * [Data - Structure 구현](https://github.com/StiKuan/Java_Data_Structure) (제 Repository - Link 입니다.)
 * [Algorithm 이론 및 구현](https://github.com/StiKuan/Java_Algorithm) (제 Repository - Link 입니다.)
-* Web 
+* Web ( Spring MVC Architecture 추가 )
 * NetWork
-* DataBase
+* DataBase ( SubQuery 추가 )
 
   
 
 
 
-#### 6월 추가 내용 예정 
+#### 7월 추가 내용 예정 
 
-* Java public static void main -> 6.13 추가
-* Spring MVC Architecture -> 6.14 추가 
-* Javascript 동기 비동기 설명 - SQL 서브쿼리, 함수 등 -> 7.1 추가 / 7.중 추가예정
 * 레드블랙 트리 , B,B+ 트리의 차이  -> 7월 추가 예정
 * REST API, XSS, SQL Injection 용어들의 간단한 설명 -> 7월 중 예정 
 
