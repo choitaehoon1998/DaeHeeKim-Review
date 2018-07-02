@@ -162,6 +162,7 @@ on update cascade
 ### SubQuery
 
 `SubQuery`는 완전한 Select 문을 ( ) -> 괄호를 이용하여 `AS Name` 으로 별칭을 주는 것입니다.
+즉, 완벽한 Select Sql문을 이용하여, `Database`의 `CRUD`를 하는데 이용하는 `Query`문입니다.
 
 ```sql
 Select B.A, B.B , (
@@ -175,3 +176,34 @@ From B
 ```
 
 이를 통해 단일 `Row`에 있는 한 `Column`의 값을 0~1개 반환할 수 있습니다.
+
+또한 `Select` , `Set`, `From` , `Insert`문 모두 `SubQuery`를 사용할 수 있습니다.
+
+
+```sql
+
+Update Test Set TestRow = ( Select * From TestBTable ); 
+// Update문에서도 Select SubQuery를 이용해 Set 할 수 있습니다.
+
+```
+
+```sql
+
+Select * 
+From 
+(Select Test.A,
+Test.B, 
+Test.C
+From Test
+Where Test.C = 'value' ) as SubQuery 
+// From절에서도 이러한 중첩을 통해 Table 중첩이 가능합니다. 
+```
+
+```sql
+Insert Into Test Values(
+(Select * From A),
+(Select * From B)
+
+); 
+// Insert문에서도 조건을 사용하여 중첩이 가능합니다.
+```
