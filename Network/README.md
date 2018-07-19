@@ -58,9 +58,9 @@ Network 중심에는 Router가 Data를 목적지까지 전달해준다. ( Router
 
 Router는 Data를 어떻게 출발점에서 목적지까지 전달하는가?
 
-`packet-switching` ( Internet에서 사용 ), `circult - switching`
+`packet-switching` ( Internet에서 사용 ), `circuit-switching`
 
-##### Circult- Switching
+##### circuit- Switching
 
 출발지에서 목적지로 가는 길을 미리 정해놓고 특정 사용자만을 사용하기 위해 하는 것 ( ex) 예전 유선전화망 ) 
 
@@ -68,7 +68,7 @@ Router는 Data를 어떻게 출발점에서 목적지까지 전달하는가?
 
 User가 보내는 Message를 Packet 단위로 forwarding 해주는 것 
 
-##### packet-Switching vs Circult-Switching
+##### packet-Switching vs circuit-Switching
 
 같은 link가 있을때, Internet을 사용하는 것이 사용자는 간헐적이기 때문에, 분산되어 사용할 수 있는 `packet - Switching` 이 적합합니다.  
 
