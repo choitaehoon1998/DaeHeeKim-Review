@@ -15,12 +15,13 @@
 
 
 
-#### 7월 추가 내용 예정 
+#### 8월 추가 내용 예정 
+* OS나 NetWork는 추가 공부내용을 올릴 수 있겠지만, 이 지식을 올리고 나면 당분간은 마무리 지을 것 같습니다.
 
-* 레드블랙 트리 , B,B+ 트리의 차이  -> 7월 추가 예정
-* REST API, XSS, SQL Injection 용어들의 간단한 설명 -> 7월 중 예정 
+* 레드블랙 트리 , B,B+ 트리의 차이  
+* REST API, XSS, SQL Injection 용어들의 간단한 설명 
 
 
 ### 기여자 목록입니다. 항상 감사드립니다 !
-* [Changmin Kim](https://github.com/changmin-dev) (오타 수정 및 정보 추가)
-* [MinSungKing](https://github.com/MinSungKing)  (오타 수정 및 정정 )
+* [Changmin Kim](https://github.com/changmin-dev) ( 오타 수정 및 정보 추가 )
+* [MinSungKing](https://github.com/MinSungKing)   ( 오타 수정 및 정정 )
