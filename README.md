@@ -4,11 +4,15 @@
 개발자의 면접을 위해 기존에 했었던 언어 및 개념을 복습합니다. 
 
 * Java ( JVM , GC )
+
+* Java Data Structure 예제 
+
 * Spring Framework ( Boot maven project 설정 )
-* [Data - Structure 구현](https://github.com/StiKuan/Java_Data_Structure) (제 Repository - Link 입니다.)
-* [Algorithm 이론 및 구현](https://github.com/StiKuan/Java_Algorithm) (제 Repository - Link 입니다.)
+
 * Web ( Spring MVC Architecture 추가 )
+
 * NetWork  ( 일부 개념만 있습니다. )
+
 * DataBase ( SubQuery 추가 )
 
   
