@@ -5,8 +5,6 @@
 
 * Java ( JVM , GC )
 
-* Java Data Structure 예제 
-
 * Spring Framework ( Boot maven project 설정 )
 
 * Web ( Spring MVC Architecture 추가 )
