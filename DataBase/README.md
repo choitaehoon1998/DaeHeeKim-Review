@@ -89,7 +89,7 @@
 
 
 
-#### DBA(Database adminstrator)
+#### DBA(Database administrator)
 
 Data와 Data Access Program 모두를 관리하는 사람 
 
@@ -97,8 +97,8 @@ Data와 Data Access Program 모두를 관리하는 사람
 
 #### DataBase 용어
 
-* table = reation
-* tuplue = row
+* table = relation
+* tuple = row
 * attribute = column 
 * domain = 한 column의 모든 값
 
