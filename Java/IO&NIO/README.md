@@ -1,6 +1,6 @@
 # IO vs NIO
 
-IO(Input/Output) 과 NIO(New Input/Output) 은 Data를 입출력하는 것은 동일하지만, 방식에서는 차이가 많이 납니다.
+IO(Input/Output) 과 NIO(Non-blocking Input/Output) 은 Data를 입출력하는 것은 동일하지만, 방식에서는 차이가 많이 납니다.
 
 
 

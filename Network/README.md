@@ -21,14 +21,14 @@
 
 ##### 통신 서비스
 
-Connetion - oriented Service 
+Connection-oriented Service 
 
 `TCP service`   : Connection-oriented Service를 제공해주는 서비스
 
 - Reliable : Server에게 Data를 보내면 Message가 그대로 감
 - In-order-byte stream : 보낸 순서대로 Data가 감
-- flow control : Receiver가 받아들일 수 있는 정보의 속도로 전달
-- congestion Control : Receiver, Sender 사이의 NetWork 환경에 맞춰서 전달
+- Flow control : Receiver가 받아들일 수 있는 정보의 속도로 전달
+- Congestion Control : Receiver, Sender 사이의 NetWork 환경에 맞춰서 전달
 
 TCP : Transmission Control Protocol 
 
