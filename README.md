@@ -20,3 +20,4 @@
 * [Changmin Kim](https://github.com/changmin-dev) ( 오타 수정 및 정보 추가 )
 * [MinSungKing](https://github.com/MinSungKing)   ( 오타 수정 및 정정 )
 * [Junho85](https://github.com/junho85) ( 오타 수정 및 정정 )
+* [devveb](https://github.com/devveb) ( 오타 수정 및 정정 )
