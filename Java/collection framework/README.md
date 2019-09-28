@@ -57,7 +57,7 @@ public class Main {
 
 ### LinkedList
 
-`LinkedList`는 배열은 크기를 변경할 수 없고 변경하기 위해서는 데이터 복사 작업이 필요하고, 비순차적인 데이터의 추가 , 삭제에 시간이 걸리기 때문에 삭제, 삽입 및 크기 변경이 편하도록 만든 Class입니다.
+`LinkedList`는 배열은 크기를 변경할 수 없고 변경하기 위해서는 데이터 복사 작업이 필요하고, 비순차적인 데이터의 추가, 삭제에 시간이 걸리기 때문에 삭제, 삽입 및 크기 변경이 편하도록 만든 Class입니다.
 
 ```java
     public static void main(String[] args) {

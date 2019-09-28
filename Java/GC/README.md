@@ -1,4 +1,4 @@
-# GarBage Collector
+# Garbage Collector
 
 `garbage collection`(가비지 컬렉션)은 메모리 관리를 위한 방법 중의 하나로, 프로그램이 동적으로 할당했던 메모리 영역 중에서 필요없게 된 영역을 해제하는 기능입니다. ( new 연산자를 이용한 객체 등 ..)
 

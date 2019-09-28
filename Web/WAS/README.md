@@ -1,7 +1,7 @@
 
 # **Web Application Server(WAS)**
 
-`Web Application Server` 는 인터넷 상에서 `HTTP`를 통해 사용자 컴퓨터나  장치에 Application을 수행해 주는 `소프트웨어 엔진`이다. WAS는 이러한 기능이 있습니다.
+`Web Application Server` 는 인터넷 상에서 `HTTP`를 통해 사용자 컴퓨터나 장치에 Application을 수행해 주는 `소프트웨어 엔진`이다. WAS는 이러한 기능이 있습니다.
 
 - 프로그램 실행 환경과 데이터베이스 접속 기능을 제공한다.
 
@@ -35,11 +35,9 @@
 
 ### Apache Tomcat 이란 
 
-`Apache`란, `apache`라는 오픈소스 소프트웨어 재단에서 만든 `HTTP WEB SERVER`입니다. `HTTP Web Serve`r란 웹 브라우저와 같은 `Web Client`(ex. chrome) 로부터 HTTP 요청을 받아들이고, `HTML, Image, CSS , JS`를 포함한 `HTML` 문서를 `Client`로 반환시키는 서버 입니다.
+`Apache`란, `apache`라는 오픈소스 소프트웨어 재단에서 만든 `HTTP WEB SERVER`입니다. `HTTP Web Server`란 웹 브라우저와 같은 `Web Client`(ex. chrome) 로부터 HTTP 요청을 받아들이고, `HTML, Image, CSS , JS`를 포함한 `HTML` 문서를 `Client`로 반환시키는 서버 입니다.
 
-`Tomcat`이란, `WAS(Web Application Server)`이며 (Web Server + Web Container)의 결합이며 다양한 기능을 컨테이너에 구현하여 동적인 Data를 처리할 수 있는 Server이며, Client의 요청이 있을시 프로그램을 통해 결과를 다시 Client에 전달해 주는 역할을 합니다. 또한 `Web Server`와 연동하여 실행할 수 있는 `Java` 환경을 제공하여 `JSP`와 `Serlvet`이 실행될 수 있도록 하고 있습니다.
-
-
+`Tomcat`이란, `WAS(Web Application Server)`이며 (Web Server + Web Container)의 결합이며 다양한 기능을 컨테이너에 구현하여 동적으로 Data를 처리할 수 있는 Server이며, Client의 요청이 있을시 프로그램을 통해 결과를 다시 Client에 전달해 주는 역할을 합니다. 또한 `Web Server`와 연동하여 실행할 수 있는 `Java` 환경을 제공하여 `JSP`와 `Serlvet`이 실행될 수 있도록 하고 있습니다.
 
 `Serlvet` : `Java`를 사용하여 웹페이지를 동적으로 생성하는 `Server` 프로그램
 
